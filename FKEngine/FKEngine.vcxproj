@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Audio\FKAudioSystem.h" />
+    <ClInclude Include="Camera\FKCamera.h" />
+    <ClInclude Include="Common\TSwitchList.h" />
+    <ClInclude Include="Debug\FKDebugSystem.h" />
+    <ClInclude Include="Event\FKEventSystem.h" />
+    <ClInclude Include="Event\FKEventSystemMacros.h" />
+    <ClInclude Include="Event\TEventEngine.h" />
+    <ClInclude Include="FKEngineCommonHead.h" />
+    <ClInclude Include="Framework\FKFramework.h" />
+    <ClInclude Include="Input\FKInputSystem.h" />
+    <ClInclude Include="Input\FKInputSystemMacros.h" />
+    <ClInclude Include="Interface\IAudioSystem.h" />
+    <ClInclude Include="Interface\ICameraSystem.h" />
+    <ClInclude Include="Interface\IDebugSystem.h" />
+    <ClInclude Include="Interface\IEventSystem.h" />
+    <ClInclude Include="Interface\IConfigFileSystem.h" />
+    <ClInclude Include="Interface\IInputSystem.h" />
+    <ClInclude Include="Interface\IMapObj.h" />
+    <ClInclude Include="Interface\IMsgDispatchSystem.h" />
+    <ClInclude Include="Interface\INetworkSystem.h" />
+    <ClInclude Include="Interface\IRenderable.h" />
+    <ClInclude Include="Interface\IRenderObj.h" />
+    <ClInclude Include="Interface\IRenderObjModel.h" />
+    <ClInclude Include="Interface\IRenderSystem.h" />
+    <ClInclude Include="Interface\IRenderText.h" />
+    <ClInclude Include="Interface\ISceneSystem.h" />
+    <ClInclude Include="Interface\ITimerSystem.h" />
+    <ClInclude Include="Interface\IUISystem.h" />
+    <ClInclude Include="MsgDispatch\FKMsgDispatchSystem.h" />
+    <ClInclude Include="Network\FKNetworkCommand.h" />
+    <ClInclude Include="Network\FKNetworkMacros.h" />
+    <ClInclude Include="Network\FKNetworkSocket.h" />
+    <ClInclude Include="Network\FKNetworkSocketConnecter.h" />
+    <ClInclude Include="Network\FKNetworkSystem.h" />
+    <ClInclude Include="Render\FKAnimateEx.h" />
+    <ClInclude Include="Render\FKAnimateExRes.h" />
+    <ClInclude Include="Render\FKAnimateExResMgr.h" />
+    <ClInclude Include="Render\FKBackgroundLayer.h" />
+    <ClInclude Include="Render\FKBarrierChunk.h" />
+    <ClInclude Include="Render\FKBarrierLayer.h" />
+    <ClInclude Include="Render\FKCameraChunk.h" />
+    <ClInclude Include="Render\FKCameraLayer.h" />
+    <ClInclude Include="Render\FKCameraMaskLayer.h" />
+    <ClInclude Include="Render\FKDBSpriteObj.h" />
+    <ClInclude Include="Render\FKEventChunk.h" />
+    <ClInclude Include="Render\FKEventLayer.h" />
+    <ClInclude Include="Render\FKFarLayer.h" />
+    <ClInclude Include="Render\FKFrameSpriteObj.h" />
+    <ClInclude Include="Render\FKFrontLayer.h" />
+    <ClInclude Include="Render\FKMapChunk.h" />
+    <ClInclude Include="Render\FKMapStruct.h" />
+    <ClInclude Include="Render\FKMapMgr.h" />
+    <ClInclude Include="Render\FKMapObj.h" />
+    <ClInclude Include="Render\FKMapSystemMacros.h" />
+    <ClInclude Include="Render\FKMaskChunk.h" />
+    <ClInclude Include="Render\FKMaskLayer.h" />
+    <ClInclude Include="Render\FKNormalLayer.h" />
+    <ClInclude Include="Render\FKRenderableMgr.h" />
+    <ClInclude Include="Render\FKRenderObj.h" />
+    <ClInclude Include="Render\FKRenderObjMgr.h" />
+    <ClInclude Include="Render\FKRenderObjModel.h" />
+    <ClInclude Include="Render\FKRenderSystem.h" />
+    <ClInclude Include="Render\FKRenderText.h" />
+    <ClInclude Include="Render\FKRenderTextMgr.h" />
+    <ClInclude Include="Render\FKImageLayer.h" />
+    <ClInclude Include="Render\FKImageChunk.h" />
+    <ClInclude Include="Render\FKMapLayer.h" />
+    <ClInclude Include="Render\FKSpriteObj.h" />
+    <ClInclude Include="Render\FKSpriteEx.h" />
+    <ClInclude Include="Timer\FKTimerSystem.h" />
+    <ClInclude Include="Timer\FKTimerSystemMacros.h" />
+    <ClInclude Include="UI\FKUISystem.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio\FKAudioSystem.cpp" />
+    <ClCompile Include="Camera\FKCamera.cpp" />
+    <ClCompile Include="Debug\FKDebugSystem.cpp" />
+    <ClCompile Include="Event\FKEventSystem.cpp" />
+    <ClCompile Include="Framework\FKFramework.cpp" />
+    <ClCompile Include="Input\FKInputSystem.cpp" />
+    <ClCompile Include="MsgDispatch\FKMsgDispatchSystem.cpp" />
+    <ClCompile Include="Network\FKNetworkCommand.cpp" />
+    <ClCompile Include="Network\FKNetworkSocket.cpp" />
+    <ClCompile Include="Network\FKNetworkSocketConnecter.cpp" />
+    <ClCompile Include="Network\FKNetworkSystem.cpp" />
+    <ClCompile Include="Render\FKAnimateEx.cpp" />
+    <ClCompile Include="Render\FKAnimateExRes.cpp" />
+    <ClCompile Include="Render\FKAnimateExResMgr.cpp" />
+    <ClCompile Include="Render\FKBackgroundLayer.cpp" />
+    <ClCompile Include="Render\FKBarrierChunk.cpp" />
+    <ClCompile Include="Render\FKBarrierLayer.cpp" />
+    <ClCompile Include="Render\FKCameraChunk.cpp" />
+    <ClCompile Include="Render\FKCameraLayer.cpp" />
+    <ClCompile Include="Render\FKCameraMaskLayer.cpp" />
+    <ClCompile Include="Render\FKDBSpriteObj.cpp" />
+    <ClCompile Include="Render\FKEventChunk.cpp" />
+    <ClCompile Include="Render\FKEventLayer.cpp" />
+    <ClCompile Include="Render\FKFarLayer.cpp" />
+    <ClCompile Include="Render\FKFrameSpriteObj.cpp" />
+    <ClCompile Include="Render\FKFrontLayer.cpp" />
+    <ClCompile Include="Render\FKImageChunk.cpp" />
+    <ClCompile Include="Render\FKImageLayer.cpp" />
+    <ClCompile Include="Render\FKMapChunk.cpp" />
+    <ClCompile Include="Render\FKMapLayer.cpp" />
+    <ClCompile Include="Render\FKMapMgr.cpp" />
+    <ClCompile Include="Render\FKMapObj.cpp" />
+    <ClCompile Include="Render\FKMaskChunk.cpp" />
+    <ClCompile Include="Render\FKMaskLayer.cpp" />
+    <ClCompile Include="Render\FKNormalLayer.cpp" />
+    <ClCompile Include="Render\FKRenderableMgr.cpp" />
+    <ClCompile Include="Render\FKRenderObj.cpp" />
+    <ClCompile Include="Render\FKRenderObjMgr.cpp" />
+    <ClCompile Include="Render\FKRenderObjModel.cpp" />
+    <ClCompile Include="Render\FKRenderSystem.cpp" />
+    <ClCompile Include="Render\FKRenderText.cpp" />
+    <ClCompile Include="Render\FKRenderTextMgr.cpp" />
+    <ClCompile Include="Render\FKSpriteEx.cpp" />
+    <ClCompile Include="Render\FKSpriteObj.cpp" />
+    <ClCompile Include="Scene\FKSceneSystem.cpp" />
+    <ClCompile Include="Timer\FKTimerSystem.cpp" />
+    <ClCompile Include="UI\FKUISystem.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{708CB979-FDEA-49F7-B7DF-0EDFAAB59E0D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FKEngine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\cocos2dx;$(ProjectDir)..\..\cocos2dx\include;$(ProjectDir)..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\..\external;$(ProjectDir)..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\scripting\lua\lua;$(ProjectDir)..\..\scripting\lua\tolua;$(ProjectDir)..\..\scripting\lua\cocos2dx_support;$(ProjectDir)..\..\CocosDenshion\include;$(ProjectDir)..\..\extensions;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32\pthread;$(ProjectDir)..\FKCWLib\FKCW_Depend\freetype2\win32\libfreetype2;$(ProjectDir)..\;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\cocos2dx;$(ProjectDir)..\..\cocos2dx\include;$(ProjectDir)..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\..\external;$(ProjectDir)..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\scripting\lua\lua;$(ProjectDir)..\..\scripting\lua\tolua;$(ProjectDir)..\..\scripting\lua\cocos2dx_support;$(ProjectDir)..\..\CocosDenshion\include;$(ProjectDir)..\..\extensions;$(ProjectDir)..\..\cocos2dx\platform\third_party\win32\pthread;$(ProjectDir)..\FKCWLib\FKCW_Depend\freetype2\win32\libfreetype2;$(ProjectDir)..\;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

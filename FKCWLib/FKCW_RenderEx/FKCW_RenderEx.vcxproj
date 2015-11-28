@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FKCW_RenderEx.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_BlurTextureFilter.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_EraserSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_JoystickNode.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_LaserSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_CatmullRomSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_Macros.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_NumberCountNode.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_PredrawArmature.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_GradientSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_PredrawSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_RenderTextureMutable.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_ScrollingBackgroundNode.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_SimpleShaderColorPainter.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_SpotLightSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_SwayNode.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_Texture2DMutable.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_TiledSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_TurnCardSprite.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_ZoomControllerLayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_RenderEx_BlurTextureFilter.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_EraserSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_JoystickNode.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_LaserSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_CatmullRomSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_NumberCountNode.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_PredrawArmature.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_GradientSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_PredrawSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_RenderTextureMutable.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_ScrollingBackgroundNode.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_SimpleShaderColorPainter.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_SpotLightSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_SwayNode.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_Texture2DMutable.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_TiledSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_TurnCardSprite.cpp" />
+    <ClCompile Include="Source\FKCW_RenderEx_ZoomControllerLayer.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{E30720B4-3456-410C-A437-39A891D39B97}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FKCW_RenderEx</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

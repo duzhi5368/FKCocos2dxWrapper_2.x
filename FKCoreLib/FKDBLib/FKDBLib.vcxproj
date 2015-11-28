@@ -1,0 +1,157 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\Animation.h" />
+    <ClInclude Include="Include\AnimationData.h" />
+    <ClInclude Include="Include\AnimationEvent.h" />
+    <ClInclude Include="Include\AnimationState.h" />
+    <ClInclude Include="Include\Armature.h" />
+    <ClInclude Include="Include\ArmatureData.h" />
+    <ClInclude Include="Include\ArmatureEvent.h" />
+    <ClInclude Include="Include\BaseFactory.h" />
+    <ClInclude Include="Include\BaseMacro.h" />
+    <ClInclude Include="Include\BaseMath.h" />
+    <ClInclude Include="Include\Bone.h" />
+    <ClInclude Include="Include\BoneData.h" />
+    <ClInclude Include="Include\ColorTransform.h" />
+    <ClInclude Include="Include\ConstString.h" />
+    <ClInclude Include="Include\DargonBonesObject.h" />
+    <ClInclude Include="Include\DargonBonesXMLParser.h" />
+    <ClInclude Include="Include\DisplayData.h" />
+    <ClInclude Include="Include\Event.h" />
+    <ClInclude Include="Include\EventDispatcher.h" />
+    <ClInclude Include="Include\Frame.h" />
+    <ClInclude Include="Include\FrameEvent.h" />
+    <ClInclude Include="Include\Matrix.h" />
+    <ClInclude Include="Include\Object.h" />
+    <ClInclude Include="Include\Point.h" />
+    <ClInclude Include="Include\Rect.h" />
+    <ClInclude Include="Include\SkeletonData.h" />
+    <ClInclude Include="Include\SkinData.h" />
+    <ClInclude Include="Include\Slot.h" />
+    <ClInclude Include="Include\SlotData.h" />
+    <ClInclude Include="Include\SoundEvent.h" />
+    <ClInclude Include="Include\SoundEventManager.h" />
+    <ClInclude Include="Include\TextureAtlasData.h" />
+    <ClInclude Include="Include\TimeLine.h" />
+    <ClInclude Include="Include\TimeLineState.h" />
+    <ClInclude Include="Include\TinyXML2.h" />
+    <ClInclude Include="Include\Transform.h" />
+    <ClInclude Include="Include\TransformFrame.h" />
+    <ClInclude Include="Include\TransformTimeLine.h" />
+    <ClInclude Include="Include\Version.h" />
+    <ClInclude Include="Interface\IAnimation.h" />
+    <ClInclude Include="Interface\IDisplayBridge.h" />
+    <ClInclude Include="Interface\ITextureAtlas.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="Doc\基本说明.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Xml Include="Doc\样例xml分析.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Animation.cpp" />
+    <ClCompile Include="Source\AnimationEvent.cpp" />
+    <ClCompile Include="Source\AnimationState.cpp" />
+    <ClCompile Include="Source\Armature.cpp" />
+    <ClCompile Include="Source\ArmatureData.cpp" />
+    <ClCompile Include="Source\ArmatureEvent.cpp" />
+    <ClCompile Include="Source\BaseFactory.cpp" />
+    <ClCompile Include="Source\Bone.cpp" />
+    <ClCompile Include="Source\DargonBonesObject.cpp" />
+    <ClCompile Include="Source\DargonBonesXMLParser.cpp" />
+    <ClCompile Include="Source\EventDispatcher.cpp" />
+    <ClCompile Include="Source\FrameEvent.cpp" />
+    <ClCompile Include="Source\Matrix.cpp" />
+    <ClCompile Include="Source\Slot.cpp" />
+    <ClCompile Include="Source\SoundEvent.cpp" />
+    <ClCompile Include="Source\SoundEventManager.cpp" />
+    <ClCompile Include="Source\TimeLineState.cpp" />
+    <ClCompile Include="Source\TinyXML2.cpp" />
+    <ClCompile Include="Source\Transform.cpp" />
+    <ClCompile Include="Source\TransformTImeLine.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{5988D246-D139-4872-A540-F539B84B7CD5}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FKDBLib</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\libjpeg;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\..\FKCWLib\FKCW_Depend\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\libjpeg;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\FKCWLib\FKCW_Depend\png;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,439 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Audio">
+      <UniqueIdentifier>{51e19391-1ca3-40e8-a3af-6d6e256ff895}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="对外接口">
+      <UniqueIdentifier>{9f171da5-1c0e-46c0-a321-7e47aabd502d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{b1c8bca1-381d-4a64-abfe-112402422761}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Common">
+      <UniqueIdentifier>{f5be0b04-bdaa-4878-b8a3-beee583941d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{fb42b9dd-7324-4027-bd9e-a71eb1989b31}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MsgDispatch">
+      <UniqueIdentifier>{d8b3b5af-289b-4d6f-8680-dc2be567b1c8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Event">
+      <UniqueIdentifier>{1c905992-d695-440e-8f80-66288aa79fa4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{1fe71268-86e1-428b-9f00-e02fefff2a83}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{01ecaccd-4f13-4979-b9f8-677b06ed6050}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UI">
+      <UniqueIdentifier>{4be5b195-09f6-4b5a-8a94-268ad007bae4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scene">
+      <UniqueIdentifier>{4f1c2a43-9fd5-4bf8-b25e-50c22816468b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Debug">
+      <UniqueIdentifier>{3acd3e52-5fa5-426a-be4a-4a1cdd07a0f2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render">
+      <UniqueIdentifier>{a0521d18-733f-4585-b485-e68505fe8e2a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Map">
+      <UniqueIdentifier>{a2326e3c-85ed-443e-9e57-f6a8b63fed9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Obj">
+      <UniqueIdentifier>{76d99710-7805-44ca-8fbc-bc324be727d3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Obj\Rendable">
+      <UniqueIdentifier>{2bc1ddaf-d7ae-4ddd-bc88-78bd390a0f55}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Obj\RenderObj">
+      <UniqueIdentifier>{65fbcd4a-b584-40f8-b8ed-fab9d071f6d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Obj\RenderText">
+      <UniqueIdentifier>{1ea70d5b-f42c-4f72-af5a-bb42b8bd21d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Obj\Sprite">
+      <UniqueIdentifier>{80177316-d9c3-474e-913c-faf2fc8b0179}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Obj\Animate">
+      <UniqueIdentifier>{15dc01a6-4f02-486c-b5e8-fa7d7e1c90ba}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Map\Chunk">
+      <UniqueIdentifier>{d057c404-8ef6-4c8e-92df-cd1410553cfc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Map\Layer">
+      <UniqueIdentifier>{7b97c800-01c4-48ab-a068-44c11c72e69d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Camera">
+      <UniqueIdentifier>{cfd5c90b-4767-4a90-b783-ada3e1da6380}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Map\Layer\SubLayer">
+      <UniqueIdentifier>{b0bfcc9a-6e19-4234-9484-0d2033f318ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Render\Map\MapObj">
+      <UniqueIdentifier>{0c6cc2fe-55e3-4560-ae0d-0e46df137933}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FKEngineCommonHead.h" />
+    <ClInclude Include="Audio\FKAudioSystem.h">
+      <Filter>Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\FKNetworkSocket.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\FKNetworkSocketConnecter.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\FKNetworkMacros.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\FKNetworkSystem.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\FKNetworkCommand.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Common\TSwitchList.h">
+      <Filter>Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IAudioSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\INetworkSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ITimerSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\FKTimerSystem.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer\FKTimerSystemMacros.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IMsgDispatchSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="MsgDispatch\FKMsgDispatchSystem.h">
+      <Filter>MsgDispatch</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IEventSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\FKEventSystem.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\TEventEngine.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Event\FKEventSystemMacros.h">
+      <Filter>Event</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IConfigFileSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IInputSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\FKInputSystemMacros.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Input\FKInputSystem.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IUISystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Framework\FKFramework.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="UI\FKUISystem.h">
+      <Filter>UI</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ISceneSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IDebugSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Debug\FKDebugSystem.h">
+      <Filter>Debug</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderObj.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderText.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderable.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKRenderObj.h">
+      <Filter>Render\Obj\RenderObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKRenderObjModel.h">
+      <Filter>Render\Obj\RenderObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IRenderObjModel.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKRenderText.h">
+      <Filter>Render\Obj\RenderText</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKRenderTextMgr.h">
+      <Filter>Render\Obj\RenderText</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKRenderableMgr.h">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\IMapObj.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKSpriteObj.h">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKFrameSpriteObj.h">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKDBSpriteObj.h">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKAnimateEx.h">
+      <Filter>Render\Obj\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKAnimateExRes.h">
+      <Filter>Render\Obj\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKAnimateExResMgr.h">
+      <Filter>Render\Obj\Animate</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKSpriteEx.h">
+      <Filter>Render\Obj\Sprite</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKImageChunk.h">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKBarrierChunk.h">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMapLayer.h">
+      <Filter>Render\Map\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKImageLayer.h">
+      <Filter>Render\Map\Layer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKRenderObjMgr.h">
+      <Filter>Render\Obj</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMapSystemMacros.h">
+      <Filter>Render\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKEventChunk.h">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKCameraChunk.h">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMapObj.h">
+      <Filter>Render\Map\MapObj</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMaskChunk.h">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMapMgr.h">
+      <Filter>Render\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKBackgroundLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKFarLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKFrontLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKNormalLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMapChunk.h">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKCameraMaskLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Interface\ICameraSystem.h">
+      <Filter>对外接口</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMapStruct.h">
+      <Filter>Render\Map</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKBarrierLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKCameraLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKEventLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKMaskLayer.h">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClInclude>
+    <ClInclude Include="Render\FKRenderSystem.h">
+      <Filter>Render</Filter>
+    </ClInclude>
+    <ClInclude Include="Camera\FKCamera.h">
+      <Filter>Camera</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Audio\FKAudioSystem.cpp">
+      <Filter>Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\FKNetworkSocket.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\FKNetworkSocketConnecter.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\FKNetworkSystem.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\FKNetworkCommand.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer\FKTimerSystem.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="MsgDispatch\FKMsgDispatchSystem.cpp">
+      <Filter>MsgDispatch</Filter>
+    </ClCompile>
+    <ClCompile Include="Event\FKEventSystem.cpp">
+      <Filter>Event</Filter>
+    </ClCompile>
+    <ClCompile Include="Input\FKInputSystem.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Framework\FKFramework.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+    <ClCompile Include="UI\FKUISystem.cpp">
+      <Filter>UI</Filter>
+    </ClCompile>
+    <ClCompile Include="Scene\FKSceneSystem.cpp">
+      <Filter>Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="Debug\FKDebugSystem.cpp">
+      <Filter>Debug</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKRenderObjModel.cpp">
+      <Filter>Render\Obj\RenderObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKRenderText.cpp">
+      <Filter>Render\Obj\RenderText</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKRenderTextMgr.cpp">
+      <Filter>Render\Obj\RenderText</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKRenderObj.cpp">
+      <Filter>Render\Obj\RenderObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKSpriteObj.cpp">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKAnimateEx.cpp">
+      <Filter>Render\Obj\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKAnimateExRes.cpp">
+      <Filter>Render\Obj\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKAnimateExResMgr.cpp">
+      <Filter>Render\Obj\Animate</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKSpriteEx.cpp">
+      <Filter>Render\Obj\Sprite</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKFrameSpriteObj.cpp">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKDBSpriteObj.cpp">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKRenderableMgr.cpp">
+      <Filter>Render\Obj\Rendable</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKRenderObjMgr.cpp">
+      <Filter>Render\Obj</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKMapChunk.cpp">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKBarrierChunk.cpp">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKCameraChunk.cpp">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKEventChunk.cpp">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKMaskChunk.cpp">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKImageChunk.cpp">
+      <Filter>Render\Map\Chunk</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKMapLayer.cpp">
+      <Filter>Render\Map\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKImageLayer.cpp">
+      <Filter>Render\Map\Layer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKBackgroundLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKBarrierLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKCameraLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKCameraMaskLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKEventLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKMaskLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKFarLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKFrontLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKNormalLayer.cpp">
+      <Filter>Render\Map\Layer\SubLayer</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKMapObj.cpp">
+      <Filter>Render\Map\MapObj</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKMapMgr.cpp">
+      <Filter>Render\Map</Filter>
+    </ClCompile>
+    <ClCompile Include="Camera\FKCamera.cpp">
+      <Filter>Camera</Filter>
+    </ClCompile>
+    <ClCompile Include="Render\FKRenderSystem.cpp">
+      <Filter>Render</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

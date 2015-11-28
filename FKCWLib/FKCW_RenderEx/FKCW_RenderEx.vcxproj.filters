@@ -1,0 +1,129 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FKCW_RenderEx.h" />
+    <ClInclude Include="Include\FKCW_RenderEx_GradientSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_PredrawSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_PredrawArmature.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_TiledSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_CatmullRomSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_LaserSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_Texture2DMutable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_RenderTextureMutable.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_TurnCardSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_ZoomControllerLayer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_EraserSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_ScrollingBackgroundNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_NumberCountNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_JoystickNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_SimpleShaderColorPainter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_Macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_SwayNode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_BlurTextureFilter.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_RenderEx_SpotLightSprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_RenderEx_GradientSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_PredrawSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_PredrawArmature.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_TiledSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_CatmullRomSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_LaserSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_Texture2DMutable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_RenderTextureMutable.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_TurnCardSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_ZoomControllerLayer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_EraserSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_ScrollingBackgroundNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_NumberCountNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_JoystickNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_SimpleShaderColorPainter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_SwayNode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_BlurTextureFilter.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_RenderEx_SpotLightSprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

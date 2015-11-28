@@ -1,0 +1,130 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FKCW_SceneExMgr.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_MsgDelegate.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_MsgManager.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneEx.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExMgr.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransition.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionCrossFade.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionFadeColor.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionFadeDir.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionFlip.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionJumpZoom.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionMoveIn.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionOriented.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionPageTurn.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionProgress.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionRotoZoom.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionShrinkGrow.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionSlideIn.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionSplit.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionTurnOffTiles.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_SceneExMgr_MsgManager.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneEx.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExMgr.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransition.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionCrossFade.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionFadeColor.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionFadeDir.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionFlip.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionJumpZoom.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionMoveIn.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionOriented.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionPageTurn.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionProgress.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionRotoZoom.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionShrinkGrow.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionSlideIn.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionSplit.cpp" />
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionTurnOffTiles.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{41821C9E-26F7-4480-9571-63073F10E96C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FKCW_SceneExMgr</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

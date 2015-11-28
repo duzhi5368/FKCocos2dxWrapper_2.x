@@ -1,0 +1,26 @@
+#这样的是注释
+
+#下面“#--$”之后的是本文件使用的资源列表
+#静态图片
+#--$image,Resources\TestFKCW\Pic\HalfPhoto.png
+#打包的纹理集
+#--$atlas,Resources\TestFKCW\Anim\fish_frames.plist,Resources\TestFKCW\Anim\fish_frames.png
+#动画集
+#--$arm,Resource\TestFKCW\Anim\Cowboy_ani.json
+
+设置背景颜色(ffabc88b)						#这里也可以打注释
+名称文字坐标(200,100)
+名称字体大小(26)
+名称字体颜色(fff47920)
+对话文字坐标(230,70)
+对话字体大小(26)
+对话字体颜色(ff426ab3)
+创建图片对象(lufei,Resources\TestFKCW\Pic\HalfPhoto.png,200,300)
+对象闪光动作(lufei,ffffffff,2,2)
+显示对话(路飞,你好，这是第一段话，可以很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长很长,-1)
+设置背景颜色(fffeeeed)
+隐藏一个对象(lufei)
+设置对象绝对位置(lufei,600,300)
+显示一个对象(lufei)
+对象淡入动作(lufei,1.5)
+显示对话(Demaica,这是第二段话咯，1dqwdwqdwqcdcedr6,-1)

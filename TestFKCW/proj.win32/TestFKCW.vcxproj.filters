@@ -1,0 +1,442 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp">
+      <Filter>Framework\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ListControllerLayer.cpp">
+      <Filter>Framework\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MenuScene.cpp">
+      <Filter>Framework\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestScene.cpp">
+      <Filter>Framework\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\VisibleRect.cpp">
+      <Filter>Framework\Classes</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Framework</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SceneMacro.h">
+      <Filter>SubTestWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\ExampleScene.h">
+      <Filter>SubTestWnd</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AppDelegate.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ListControllerLayer.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MenuScene.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SceneMacro.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestScene.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestSceneTemplate.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\VisibleRect.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Framework</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h">
+      <Filter>Framework\Res</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\resource.h">
+      <Filter>Framework\Classes</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_3D_FKSimpleModel.h">
+      <Filter>SubTestWnd\FKCW_3D</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Blur.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_CallFuncT.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_ClipIn.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Count.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Curl.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Flash.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Missile.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Shake.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Shine.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Suck.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_TrailMoveTo.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_TreeFadeIn.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_TreeFadeOut.h">
+      <Filter>SubTestWnd\FKCW_Action</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_AStar.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_CVSLoader.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_DecodeHtml.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_DrawingPrimitives.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_Encode.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_FileZip.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_Localization.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_Memory.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_PinYin.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_ResourceLoader.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_SecureUserDefault.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_UtilsI.h">
+      <Filter>SubTestWnd\FKCW_Base</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Database_Database.h">
+      <Filter>SubTestWnd\FKCW_Database</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_2DSoftShadow.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_BreakSprite.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_ColorAdjustSprite.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_GhostLikeSprite.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_Laser.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_LightingBolt.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_NormalMapped.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_Ripple2DSprite.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_RippleSprite.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_ShatterSprite.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_TailSprite.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_TinyWindTerrain.h">
+      <Filter>SubTestWnd\FKCW_EffectNode</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Font_Test.h">
+      <Filter>SubTestWnd\FKCW_Font</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_GR_Examples.h">
+      <Filter>SubTestWnd\FKCW_GR</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Json_Json.h">
+      <Filter>SubTestWnd\FKCW_Json</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_FileDownLoader.h">
+      <Filter>SubTestWnd\FKCW_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_HttpGet.h">
+      <Filter>SubTestWnd\FKCW_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_TCP.h">
+      <Filter>SubTestWnd\FKCW_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_UDP.h">
+      <Filter>SubTestWnd\FKCW_Network</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Pixel_Demo.h">
+      <Filter>SubTestWnd\FKCW_Pixel</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_BlurTextureFilter.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_CatmullRomSprite.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_EraserSprite.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_GradientSprite.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_JoystickNode.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_LaserSprite.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_NumberCountNode.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_ScrollingBackgroundNode.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_SimpleShaderColorPainter.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_SpotLightSprite.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_SwayNode.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_TiledSprite.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_TurnCardSprite.h">
+      <Filter>SubTestWnd\FKCW_RenderEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RichHtml_HtmlLabel.h">
+      <Filter>SubTestWnd\FKCW_RichHtml</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_SceneEx_UISceneEx.h">
+      <Filter>SubTestWnd\FKCW_SceneEx</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Shader_Demo1.h">
+      <Filter>SubTestWnd\FKCW_Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Shader_Demo2.h">
+      <Filter>SubTestWnd\FKCW_Shader</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_SimpleNet_NetObj.h">
+      <Filter>SubTestWnd\FKCW_SimpleNet</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Story_StoryLayer.h">
+      <Filter>SubTestWnd\FKCW_Story</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Flip.h">
+      <Filter>SubTestWnd\FKCW_TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Hexagonal.h">
+      <Filter>SubTestWnd\FKCW_TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Isometric.h">
+      <Filter>SubTestWnd\FKCW_TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Orthogonal.h">
+      <Filter>SubTestWnd\FKCW_TMX</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_AutoRenderMenuItemSprite.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Button.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_CheckBox.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ColorView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ControlView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_DrawZOrder.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ExpandableListView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_GradientView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_GridPageView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_GridView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ImageView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Label.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_LabelAtlas.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Layout.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ListView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_PageView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ProgressBar.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ScrollView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Slider.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_TableView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_TextRich.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ToggleView.h">
+      <Filter>SubTestWnd\FKCW_UIWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_DynamicNumLabel.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_MenuItemColor.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_MenuItemProgressTimer.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_ProgressIndicator.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_ScrollableLayer.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_SimpleRookieGuiderLayer.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_Table.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_ToastLayer.h">
+      <Filter>SubTestWnd\FKCW_UI</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Framework">
+      <UniqueIdentifier>{f823a880-b850-417b-a1a3-c189b9b77453}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd">
+      <UniqueIdentifier>{9af1a35a-b499-49d4-b521-2f89232ed87e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Res">
+      <UniqueIdentifier>{4d8a5825-99b4-477f-8537-8c23687c53cd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Framework\Classes">
+      <UniqueIdentifier>{85947ac6-bef5-4a8c-b9e5-b5fce323c7b1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_UI">
+      <UniqueIdentifier>{e6cfcf15-49f1-4fb4-91bd-242229621e7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_3D">
+      <UniqueIdentifier>{29d768da-3585-4876-9591-2129f9e53207}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Action">
+      <UniqueIdentifier>{cba51bed-7e01-4794-9957-180d8d307349}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Base">
+      <UniqueIdentifier>{a6d9119b-283d-4187-ae96-34270e5ccae9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Database">
+      <UniqueIdentifier>{7fa57c0b-56fe-4a2f-b39f-c4fc24011d1b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_EffectNode">
+      <UniqueIdentifier>{d1c6f1bc-07fb-4bd8-9a7f-15d94e4e9f68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Font">
+      <UniqueIdentifier>{ed3ec4dc-07ea-4307-b681-b36d813f446a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_GR">
+      <UniqueIdentifier>{abdce604-50bf-4920-87e3-00efc990900a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Json">
+      <UniqueIdentifier>{91d63892-ce44-41ec-9eb6-3f48b91b6ab5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Network">
+      <UniqueIdentifier>{4a125597-e68f-464c-9bd1-07a6fb95477a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Pixel">
+      <UniqueIdentifier>{134a2bf9-7f9f-4357-9cfc-14938c55d949}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_RenderEx">
+      <UniqueIdentifier>{e12fa5ae-313c-4c04-95ab-7969fcdec4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_RichHtml">
+      <UniqueIdentifier>{b6ec1cb7-f043-42d9-84dc-856c4d9c75eb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_SceneEx">
+      <UniqueIdentifier>{491bb553-5f39-4960-a325-17e2d601e6a9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Shader">
+      <UniqueIdentifier>{a5b9e163-0b74-4f90-92dd-31dfa12983db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_SimpleNet">
+      <UniqueIdentifier>{38af7196-4d57-4a7b-a641-28221ccc017d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_Story">
+      <UniqueIdentifier>{5cafb61f-f9a6-4acf-923e-251c4a65a244}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_TMX">
+      <UniqueIdentifier>{9b436ca2-dd2d-47cc-8aab-6e9a5167c4d4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SubTestWnd\FKCW_UIWidget">
+      <UniqueIdentifier>{90c29940-2e22-4f5d-9cc2-ec755ae07f78}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="egg-plant.ico">
+      <Filter>Framework\Res</Filter>
+    </Image>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestFKCW.rc">
+      <Filter>Framework\Res</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+</Project>

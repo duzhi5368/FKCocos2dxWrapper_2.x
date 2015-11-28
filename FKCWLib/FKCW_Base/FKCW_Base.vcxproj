@@ -1,0 +1,140 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FKCW_Base.h" />
+    <ClInclude Include="Include\FKCW_Base_AStar.h" />
+    <ClInclude Include="Include\FKCW_Base_Base64.h" />
+    <ClInclude Include="Include\FKCW_Base_Bundle.h" />
+    <ClInclude Include="Include\FKCW_Base_ByteBuffer.h" />
+    <ClInclude Include="Include\FKCW_Base_CSVLoader.h" />
+    <ClInclude Include="Include\FKCW_Base_Data.h" />
+    <ClInclude Include="Include\FKCW_Base_DecodeHtmlEntitiesUTF8.h" />
+    <ClInclude Include="Include\FKCW_Base_DrawingPrimitives.h" />
+    <ClInclude Include="Include\FKCW_Base_FileZip.h" />
+    <ClInclude Include="Include\FKCW_Base_Geometry.h" />
+    <ClInclude Include="Include\FKCW_Base_Localization.h" />
+    <ClInclude Include="Include\FKCW_Base_Macro.h" />
+    <ClInclude Include="Include\FKCW_Base_MD5.h" />
+    <ClInclude Include="Include\FKCW_Base_Memory.h" />
+    <ClInclude Include="Include\FKCW_Base_PinYinUtils.h" />
+    <ClInclude Include="Include\FKCW_Base_PlatformStringParser.h" />
+    <ClInclude Include="Include\FKCW_Base_PointList.h" />
+    <ClInclude Include="Include\FKCW_Base_ResourceLoader.h" />
+    <ClInclude Include="Include\FKCW_Base_ResourceLoaderListener.h" />
+    <ClInclude Include="Include\FKCW_Base_SecureUserDefault.h" />
+    <ClInclude Include="Include\FKCW_Base_SHA1.h" />
+    <ClInclude Include="Include\FKCW_Base_StringConvert.h" />
+    <ClInclude Include="Include\FKCW_Base_Types.h" />
+    <ClInclude Include="Include\FKCW_Base_ColorConvert.h" />
+    <ClInclude Include="Include\FKCW_Base_Unicode.h" />
+    <ClInclude Include="Include\FKCW_Base_Utils.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_Base_AStar.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Base64.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Bundle.cpp" />
+    <ClCompile Include="Source\FKCW_Base_ByteBuffer.cpp" />
+    <ClCompile Include="Source\FKCW_Base_CSVLoader.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Data.cpp" />
+    <ClCompile Include="Source\FKCW_Base_DecodeHtmlEntitiesUTF8.cpp" />
+    <ClCompile Include="Source\FKCW_Base_DrawingPrimitives.cpp" />
+    <ClCompile Include="Source\FKCW_Base_FileZip.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Geometry.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Localization.cpp" />
+    <ClCompile Include="Source\FKCW_Base_MD5.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Memory.cpp" />
+    <ClCompile Include="Source\FKCW_Base_PinYinUtils.cpp" />
+    <ClCompile Include="Source\FKCW_Base_PlatformStringParser.cpp" />
+    <ClCompile Include="Source\FKCW_Base_PointList.cpp" />
+    <ClCompile Include="Source\FKCW_Base_ResourceLoader.cpp" />
+    <ClCompile Include="Source\FKCW_Base_SecureUserDefault.cpp" />
+    <ClCompile Include="Source\FKCW_Base_SHA1.cpp" />
+    <ClCompile Include="Source\FKCW_Base_StringConvert.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Unicode.cpp" />
+    <ClCompile Include="Source\FKCW_Base_Utils.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{4CDA6B91-F5CB-4B93-8812-DFDC38E4C3C2}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FKCW_Base</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;%(DisableSpecificWarnings)</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\zlib;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

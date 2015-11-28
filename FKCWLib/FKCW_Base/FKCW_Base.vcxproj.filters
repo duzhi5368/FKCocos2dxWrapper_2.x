@@ -1,0 +1,160 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{0c264930-9f38-4853-9c38-552d61aba95a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{e6e0f5a0-dd43-4cda-a4e5-6d25c7c39be4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\FKCW_Base_ColorConvert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Data.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Macro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Types.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FKCW_Base.h" />
+    <ClInclude Include="Include\FKCW_Base_PointList.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Utils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_DecodeHtmlEntitiesUTF8.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_PinYinUtils.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Unicode.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_MD5.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Base64.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Memory.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_PlatformStringParser.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Localization.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_SecureUserDefault.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_ResourceLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_ResourceLoaderListener.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_DrawingPrimitives.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Bundle.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_CSVLoader.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_SHA1.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_Geometry.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_StringConvert.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_AStar.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_FileZip.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Base_ByteBuffer.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_Base_Data.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_PointList.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_Utils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_DecodeHtmlEntitiesUTF8.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_PinYinUtils.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_Unicode.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_MD5.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_Base64.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_Memory.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_PlatformStringParser.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_Localization.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_SecureUserDefault.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_ResourceLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_DrawingPrimitives.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_Bundle.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_CSVLoader.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_SHA1.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_Geometry.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_StringConvert.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_AStar.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_FileZip.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_Base_ByteBuffer.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

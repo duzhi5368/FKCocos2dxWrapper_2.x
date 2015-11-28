@@ -1,0 +1,12 @@
+<TextureAtlas name="shulin_cao" imagePath="texture.png">
+  <SubTexture name="plant10" x="76" y="66" width="21" height="16"/>
+  <SubTexture name="plant09" x="105" y="65" width="22" height="16"/>
+  <SubTexture name="plant08" x="105" y="38" width="17" height="26"/>
+  <SubTexture name="plant07" x="57" y="49" width="18" height="21"/>
+  <SubTexture name="plant06" x="84" y="0" width="29" height="37"/>
+  <SubTexture name="plant05" x="57" y="0" width="26" height="48"/>
+  <SubTexture name="plant04" x="0" y="0" width="55" height="73"/>
+  <SubTexture name="plant03" x="114" y="0" width="13" height="14"/>
+  <SubTexture name="plant02" x="114" y="15" width="12" height="15"/>
+  <SubTexture name="plant01" x="84" y="38" width="20" height="27"/>
+</TextureAtlas>

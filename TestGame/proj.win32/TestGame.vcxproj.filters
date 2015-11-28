@@ -1,0 +1,119 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="..\Classes\LoginScene.cpp">
+      <Filter>Classes\Game\Module\Login</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\TestApp.cpp">
+      <Filter>Classes\Application</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\EventBridge.cpp">
+      <Filter>Classes\Application\Even</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\MsgBoxMgr.cpp">
+      <Filter>Classes\Game\MsgBox</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AudioBridge.cpp">
+      <Filter>Classes\Application\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StarManger.cpp">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StarWidget.cpp">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\StarSprite.cpp">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\PlayTestScene.cpp">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\ShopTestScene.cpp">
+      <Filter>Classes\Game\Module\Shop</Filter>
+    </ClCompile>
+    <ClCompile Include="..\Classes\AchieTestScene.cpp">
+      <Filter>Classes\Game\Module\Achie</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="main.h" />
+    <ClInclude Include="..\Classes\GameResource.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\LoginScene.h">
+      <Filter>Classes\Game\Module\Login</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\TestApp.h">
+      <Filter>Classes\Application</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventBridge.h">
+      <Filter>Classes\Application\Even</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\EventCommon.h">
+      <Filter>Classes\Application\Even</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\MsgBoxMgr.h">
+      <Filter>Classes\Game\MsgBox</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AudioBridge.h">
+      <Filter>Classes\Application\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\GameCommon.h">
+      <Filter>Classes\Game</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StarManger.h">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StarWidget.h">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\StarSprite.h">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\PlayTestScene.h">
+      <Filter>Classes\Game\Module\Play</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\ShopTestScene.h">
+      <Filter>Classes\Game\Module\Shop</Filter>
+    </ClInclude>
+    <ClInclude Include="..\Classes\AchieTestScene.h">
+      <Filter>Classes\Game\Module\Achie</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="Classes">
+      <UniqueIdentifier>{df51e687-357c-4dae-9264-4573a8392139}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game">
+      <UniqueIdentifier>{da1941cd-0f66-4463-8cf6-225d5ad51263}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Application">
+      <UniqueIdentifier>{c9474dd4-3ecb-4c58-bcac-d7b6ff91295d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Application\Even">
+      <UniqueIdentifier>{fa29ddb8-26e9-4e2c-bf12-7f8e4dcc106a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Module">
+      <UniqueIdentifier>{01888132-871d-4aac-b979-05b94af115be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Module\Play">
+      <UniqueIdentifier>{90a7969f-1f4e-49a3-867b-c29ff5a1a6ed}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Module\Shop">
+      <UniqueIdentifier>{5172be8f-39ac-4611-9c9f-1e9c3e00c4af}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Module\Achie">
+      <UniqueIdentifier>{3166a009-3b1d-41ac-ab61-3260cd5e1adc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\Module\Login">
+      <UniqueIdentifier>{56729b87-1956-4457-9b98-989033b720e2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Game\MsgBox">
+      <UniqueIdentifier>{4ad07c4b-cec4-43ee-9af6-64844624e59e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Classes\Application\Audio">
+      <UniqueIdentifier>{a26ceb1e-c119-4266-a8ff-a93f4c2e6c4a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

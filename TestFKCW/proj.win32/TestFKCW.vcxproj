@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{169BC07D-F0CB-4E19-BDF1-55C1CB68B93D}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>Test</RootNamespace>
+    <ProjectName>TestFKCW</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <LinkIncremental>true</LinkIncremental>
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\$(TargetName)\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <LinkIncremental>false</LinkIncremental>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\$(TargetName)\</IntDir>
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;$(ProjectDir)..\..\FKCWLib\FKCW_Depend\freetype2\win32\libfreetype2;$(ProjectDir)..\..\;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\zlib;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\pthread;$(ProjectDir)..\..\FKCWLib\FKCW_Depend\freetype2\win32\libfreetype2;$(ProjectDir)..\..\;..;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+      <AdditionalDependencies>libExtensions.lib;libcocos2d.lib;libCocosDenshion.lib;opengl32.lib;glew32.lib;libBox2d.lib;libchipmunk.lib;libcurl_imp.lib;pthreadVCE2.lib;websockets.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <AdditionalLibraryDirectories>$(OutDir)</AdditionalLibraryDirectories>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="..\Classes\AppDelegate.cpp" />
+    <ClCompile Include="..\Classes\ListControllerLayer.cpp" />
+    <ClCompile Include="..\Classes\MenuScene.cpp" />
+    <ClCompile Include="..\Classes\TestScene.cpp" />
+    <ClCompile Include="..\Classes\VisibleRect.cpp" />
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\Classes\AppDelegate.h" />
+    <ClInclude Include="..\Classes\ListControllerLayer.h" />
+    <ClInclude Include="..\Classes\MenuScene.h" />
+    <ClInclude Include="..\Classes\resource.h" />
+    <ClInclude Include="..\Classes\SceneMacro.h" />
+    <ClInclude Include="..\Classes\TestScene.h" />
+    <ClInclude Include="..\Classes\TestSceneTemplate.h" />
+    <ClInclude Include="..\Classes\VisibleRect.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="SceneMacro.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\ExampleScene.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_3D_FKSimpleModel.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Suck.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_FileZip.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_BreakSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_ColorAdjustSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_GhostLikeSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_Laser.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_LightingBolt.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_NormalMapped.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_Ripple2DSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_RippleSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_ShatterSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_TailSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_TinyWindTerrain.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Font_Test.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Pixel_Demo.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_BlurTextureFilter.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_SpotLightSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_SwayNode.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RichHtml_HtmlLabel.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Shader_Demo1.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Shader_Demo2.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_SimpleNet_NetObj.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_CallFuncT.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Curl.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_CVSLoader.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_DecodeHtml.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_Encode.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_Localization.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_Memory.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_PinYin.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_ResourceLoader.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_SecureUserDefault.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Database_Database.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_GR_Examples.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Json_Json.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_FileDownLoader.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_HttpGet.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_TCP.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Network_UDP.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_CatmullRomSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_JoystickNode.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_EraserSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_LaserSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_NumberCountNode.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_ScrollingBackgroundNode.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_SimpleShaderColorPainter.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_TiledSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_DrawingPrimitives.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Blur.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_ClipIn.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Count.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Flash.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Missile.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Shake.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_Shine.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_TrailMoveTo.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_TreeFadeIn.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Action_TreeFadeOut.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_AStar.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Base_UtilsI.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_EffectNode_2DSoftShadow.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_GradientSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_RenderEx_TurnCardSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_SceneEx_UISceneEx.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_Story_StoryLayer.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Flip.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Hexagonal.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Isometric.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_TMX_Orthogonal.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Button.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_CheckBox.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ColorView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ControlView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_DrawZOrder.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ExpandableListView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_GradientView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_GridPageView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_GridView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ImageView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Label.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_LabelAtlas.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Layout.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ListView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_PageView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ProgressBar.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ScrollView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_Slider.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_TableView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_TextRich.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UIWidget_ToggleView.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_AutoRenderMenuItemSprite.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_DynamicNumLabel.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_MenuItemColor.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_MenuItemProgressTimer.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_ProgressIndicator.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_ScrollableLayer.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_SimpleRookieGuiderLayer.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_Table.h" />
+    <ClInclude Include="..\Classes\SubTestWnd\Test_UI_ToastLayer.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="egg-plant.ico" />
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="TestFKCW.rc" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

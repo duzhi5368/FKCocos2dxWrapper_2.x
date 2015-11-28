@@ -1,0 +1,138 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\子过渡场景">
+      <UniqueIdentifier>{4c9c3903-75c7-49f4-b93f-931194387fa2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子过渡场景">
+      <UniqueIdentifier>{3ab693d2-b359-4e6d-8962-b36c05bd230a}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\FKCW_SceneExMgr_MsgDelegate.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_MsgManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneEx.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransition.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FKCW_SceneExMgr.h" />
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionOriented.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionRotoZoom.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionJumpZoom.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionMoveIn.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionSlideIn.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionShrinkGrow.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionFlip.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionCrossFade.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionTurnOffTiles.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionSplit.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionFadeColor.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionFadeDir.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionPageTurn.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr_SceneExTransitionProgress.h">
+      <Filter>头文件\子过渡场景</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_SceneExMgr.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_SceneExMgr_MsgManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneEx.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExMgr.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransition.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionOriented.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionJumpZoom.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionRotoZoom.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionMoveIn.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionSlideIn.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionShrinkGrow.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionFlip.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionFadeColor.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionCrossFade.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionTurnOffTiles.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionSplit.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionFadeDir.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionPageTurn.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_SceneExMgr_SceneExTransitionProgress.cpp">
+      <Filter>源文件\子过渡场景</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

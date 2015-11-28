@@ -1,0 +1,195 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\控件">
+      <UniqueIdentifier>{38eb8949-25a5-41e8-82ee-ad90ce2af40d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\控件">
+      <UniqueIdentifier>{a4d40b6b-e597-4d3a-9cf1-a516092050e7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\Lua">
+      <UniqueIdentifier>{83628dee-234d-4c50-8025-283d0124ad25}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\Lua">
+      <UniqueIdentifier>{60a52037-eb08-499f-be6d-1488f2ac2b32}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FKCW_UIWidget.h" />
+    <ClInclude Include="Include\FKCW_UIWidget_Button.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_CheckBox.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ColorView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ControlView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ExpandableListView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_GradientView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_GridPageView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_GridView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ImageView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ImageViewScale9.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Label.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_LabelAtlas.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_LabelBMFont.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Layout.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ListView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_PageView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ProgressBar.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ScrollView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Slider.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_TableView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_TextRich.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_ToggleView.h">
+      <Filter>头文件\控件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_WidgetWindow.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Widget.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Protocol.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Scale9Sprite.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Lua.h">
+      <Filter>头文件\Lua</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_UIWidget_Macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_UIWidget_Button.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_CheckBox.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ColorView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ControlView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ExpandableListView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_GradientView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_GridPageView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_GridView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ImageView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ImageViewScale9.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_Label.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_LabelAtlas.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_LabelBMFont.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_Layout.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ListView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_PageView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ProgressBar.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ScrollView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_Slider.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_TableView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_TextRich.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_ToggleView.cpp">
+      <Filter>源文件\控件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_WidgetWindow.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_Widget.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_Scale9Sprite.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_Protocol.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_UIWidget_Lua.cpp">
+      <Filter>源文件\Lua</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

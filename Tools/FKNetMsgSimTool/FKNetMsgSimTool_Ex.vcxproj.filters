@@ -1,0 +1,162 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="AppDelegate.cpp" />
+    <ClCompile Include="main.cpp" />
+    <ClCompile Include="View\ViewWidget\FileView.cpp">
+      <Filter>View\ViewWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="FKExpand\ComboBox.cpp">
+      <Filter>Base</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewWidget\MessageListView.cpp">
+      <Filter>View\ViewWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewWidget\AttributeListView.cpp">
+      <Filter>View\ViewWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="MainScreen.cpp" />
+    <ClCompile Include="View\ViewWidget\LogView.cpp">
+      <Filter>View\ViewWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewWidget\IpPostView.cpp">
+      <Filter>View\ViewWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewWidget\AttributeEditView.cpp">
+      <Filter>View\ViewWidget</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewDialog\DialogBase.cpp">
+      <Filter>View\ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewDialog\NewSubMessageDialog.cpp">
+      <Filter>View\ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml\MsgPackUnpack.cpp">
+      <Filter>Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Xml\XmlParser.cpp">
+      <Filter>Xml</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetServerObject.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkClient.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="Network\NetworkServer.cpp">
+      <Filter>Network</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewDialog\NewMainMessageDialog.cpp">
+      <Filter>View\ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewDialog\NewAttributeDialog.cpp">
+      <Filter>View\ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewDialog\ReviseSubMessageDialog.cpp">
+      <Filter>View\ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewDialog\ReviseMainMessageDialog.cpp">
+      <Filter>View\ViewDialog</Filter>
+    </ClCompile>
+    <ClCompile Include="View\ViewDialog\NewFileDialog.cpp">
+      <Filter>View\ViewDialog</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="AppDelegate.h" />
+    <ClInclude Include="main.h" />
+    <ClInclude Include="Resource.h" />
+    <ClInclude Include="View\ViewWidget\FileView.h">
+      <Filter>View\ViewWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="FKExpand\ComboBox.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="FKExpand\FileDirDialog.h">
+      <Filter>Base</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewWidget\MessageListView.h">
+      <Filter>View\ViewWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewWidget\AttributeListView.h">
+      <Filter>View\ViewWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="MainScreen.h" />
+    <ClInclude Include="View\IncludeViewWidget.h">
+      <Filter>View</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewWidget\LogView.h">
+      <Filter>View\ViewWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewWidget\IpPostView.h">
+      <Filter>View\ViewWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewWidget\AttributeEditView.h">
+      <Filter>View\ViewWidget</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewDialog\DialogBase.h">
+      <Filter>View\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="resource1.h" />
+    <ClInclude Include="View\ViewDialog\NewSubMessageDialog.h">
+      <Filter>View\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml\MsgPackUnpack.h">
+      <Filter>Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Xml\XmlParser.h">
+      <Filter>Xml</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetServerObject.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkClient.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="Network\NetworkServer.h">
+      <Filter>Network</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewDialog\NewMainMessageDialog.h">
+      <Filter>View\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewDialog\NewAttributeDialog.h">
+      <Filter>View\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewDialog\ReviseSubMessageDialog.h">
+      <Filter>View\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewDialog\ReviseMainMessageDialog.h">
+      <Filter>View\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="View\ViewDialog\NewFileDialog.h">
+      <Filter>View\ViewDialog</Filter>
+    </ClInclude>
+    <ClInclude Include="resource2.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="View">
+      <UniqueIdentifier>{364402cd-c98e-41d7-a80f-a4e909f691fb}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\ViewWidget">
+      <UniqueIdentifier>{546749c2-229a-4e59-9c13-3dde6f4be344}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="View\ViewDialog">
+      <UniqueIdentifier>{20271207-7670-40e8-b8b4-0cf232cb1f05}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Xml">
+      <UniqueIdentifier>{fa0c54df-3218-4496-97c7-224b454261a0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Network">
+      <UniqueIdentifier>{f19f4ecd-6380-4928-a5bf-2e5a6909276b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Base">
+      <UniqueIdentifier>{067132e8-fd5d-4f8a-9b38-7e0b529e765b}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="FKNetMsgSimTool.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="pumpkin.ico" />
+  </ItemGroup>
+</Project>

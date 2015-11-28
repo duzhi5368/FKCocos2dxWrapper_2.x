@@ -1,0 +1,4 @@
+本代码受到GNU LGPL v2协议约束。（协议参见：http://www.thebigfly.com/gnu/lgpl/ )
+注：本代码许多部分参考有他人代码，但来源不明，若有侵权，请联系 duzhi5368@163.com 。
+若有改进使用，能给予通知则更加感谢。
+		--- FreeKnight 20150402

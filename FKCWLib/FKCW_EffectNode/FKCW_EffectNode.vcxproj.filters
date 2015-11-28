@@ -1,0 +1,114 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\子特效节点">
+      <UniqueIdentifier>{10bfa45f-c191-44f2-8af1-b48ec0f5dc38}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\子特效节点">
+      <UniqueIdentifier>{4778c257-a811-4500-bfda-511abfe41f71}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\FKCW_EffectNode_IndexVBO.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_GLProgramWithUnifos.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_Mesh.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FKCW_EffectNode.h" />
+    <ClInclude Include="Include\FKCW_EffectNode_2DSoftShadow.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_BreakSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_ColorAdjustSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_GhostLikeSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_Laser.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_LightingBoltNode.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_NormalMappedSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_RippleSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_Ripper2DSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_Shatter.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_TailSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_TinyWingsTerrainSprite.h">
+      <Filter>头文件\子特效节点</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_EffectNode_Macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_EffectNode_IndexVBO.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_GLProgramWithUnifos.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffecNode_2DSoftShadow.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_BreakSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_ColorAdjustSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_GhostLikeSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_Laser.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_LightingBoltNode.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_NormalMappedSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_RippleSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_Ripper2DSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_Shatter.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_TinyWingsTerrainSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKCW_EffectNode_TailSprite.cpp">
+      <Filter>源文件\子特效节点</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

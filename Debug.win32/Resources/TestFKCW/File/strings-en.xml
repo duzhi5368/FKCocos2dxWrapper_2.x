@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<strings xml:lang="en">
+  <string name="menu">Menu</string>
+  <string name="ChangeLan">ChangeLanguage</string>
+  <string name="SkipToLocalNav">Skip to navigation</string>
+  <string name="SkipToFooter">Skip to footer</string>
+  <string name="close">Close</string>
+</strings>

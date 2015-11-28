@@ -1,0 +1,90 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\ImageType">
+      <UniqueIdentifier>{64a7536a-a29a-4395-869c-6b0ca0de8fc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\ImageType">
+      <UniqueIdentifier>{0ba4f536-2f30-4b34-a732-2dad5ba79a99}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\FKFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKImage.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKImageExifInfo.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKImageIterator.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKIOFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKMemFile.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKPicCommonDef.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKImageBmp.h">
+      <Filter>头文件\ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKImageJpeg.h">
+      <Filter>头文件\ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKImageFKP.h">
+      <Filter>头文件\ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKImagePng.h">
+      <Filter>头文件\ImageType</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKFileJpg.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FKPicLib.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKFileJpg.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKImage.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKImageExifInfo.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKImageIterator.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKIOFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKMemFile.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKImageBmp.cpp">
+      <Filter>源文件\ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKImageFKP.cpp">
+      <Filter>源文件\ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKImageJpeg.cpp">
+      <Filter>源文件\ImageType</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\FKImagePng.cpp">
+      <Filter>源文件\ImageType</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

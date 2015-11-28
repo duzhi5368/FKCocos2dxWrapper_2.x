@@ -1,0 +1,9 @@
+1：每个 AnimationData 由多个 TimeLine(TransformTimeLine) 组成。
+2：每个 TimeLine 有多个 Frame 组成。
+
+1: 每个 SlotData 由多个 DisplayData 组成。
+2：每个 SkinData 由多个 SlotData 组成。
+3：每个 ArmatureData 由多个 SlotData, 多个 SkinData, 多个排序的 BoneData 组成。
+4: 每个 SkeletonData 由多个 ArmatureData 组成，以及多个 Texture 坐标集组成。
+
+

@@ -1,0 +1,150 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="头文件\CustomShader">
+      <UniqueIdentifier>{1e9dc285-08b9-4161-8fce-9b00cd15b403}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Include\FKCW_Shader_ShaderManager.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="FKCW_Shader.h" />
+    <ClInclude Include="Shader\Blur_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Blur_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Flash_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Flash_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Laser_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Laser_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Lighting_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Lighting_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Matrix_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Matrix_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Shine_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Shine_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Bloom_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Bloom_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\CelShading_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\CelShading_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\EdgeDetection_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\EdgeDetection_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Include\FKCW_Shader_Macros.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Color_Vert.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\OldPhoto_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Negative_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Brightness_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Constrast_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Saturation_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\BlackWhite_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\SimpleEdgeDetection_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Emboss_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\SmallBlur_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\BigBlur_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\SmallSharpen_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\BigSharpen_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\SimpleSharpen_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Dilate_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Erode_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Laplacian_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Sobel_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\Prewitt_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\MotionBlur_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\BigEmboss_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+    <ClInclude Include="Shader\ColorRump_Frag.h">
+      <Filter>头文件\CustomShader</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_Shader_ShaderManager.cpp">
+      <Filter>源文件</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>

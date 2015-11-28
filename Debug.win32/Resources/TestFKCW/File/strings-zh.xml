@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?> 
+<resource>
+  <string name="menu">菜单</string>
+  <string name="ChangeLan">更换语言</string>
+  <string name="SkipToLocalNav">跳到导航</string>
+  <string name="SkipToFooter">跳到页脚</string>
+  <string name="close">关闭</string>
+</resource>

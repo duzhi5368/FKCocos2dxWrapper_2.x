@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="FKCW_3D.h" />
+    <ClInclude Include="Include\FKCW_3D_Actor.h" />
+    <ClInclude Include="Include\FKCW_3D_Camera.h" />
+    <ClInclude Include="Include\FKCW_3D_CommonFunc.h" />
+    <ClInclude Include="Include\FKCW_3D_DefaultMeshes.h" />
+    <ClInclude Include="Include\FKCW_3D_DefaultPassUniformCallback.h" />
+    <ClInclude Include="Include\FKCW_3D_DefaultPrograms.h" />
+    <ClInclude Include="Include\FKCW_3D_FKSimpleModelLoader.h" />
+    <ClInclude Include="Include\FKCW_3D_GLMath.h" />
+    <ClInclude Include="Include\FKCW_3D_IDTriangle.h" />
+    <ClInclude Include="Include\FKCW_3D_IndexVBO3D.h" />
+    <ClInclude Include="Include\FKCW_3D_LightSource.h" />
+    <ClInclude Include="Include\FKCW_3D_Macro.h" />
+    <ClInclude Include="Include\FKCW_3D_Material.h" />
+    <ClInclude Include="Include\FKCW_3D_Math.h" />
+    <ClInclude Include="Include\FKCW_3D_Matrix4.h" />
+    <ClInclude Include="Include\FKCW_3D_MatStackInfoGetor.h" />
+    <ClInclude Include="Include\FKCW_3D_Mesh.h" />
+    <ClInclude Include="Include\FKCW_3D_Model.h" />
+    <ClInclude Include="Include\FKCW_3D_Node.h" />
+    <ClInclude Include="Include\FKCW_3D_Programs.h" />
+    <ClInclude Include="Include\FKCW_3D_Range.h" />
+    <ClInclude Include="Include\FKCW_3D_Root.h" />
+    <ClInclude Include="Include\FKCW_3D_SubMesh.h" />
+    <ClInclude Include="Include\FKCW_3D_SubMeshData.h" />
+    <ClInclude Include="Include\FKCW_3D_Vector.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\FKCW_3D_Actor.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Camera.cpp" />
+    <ClCompile Include="Source\FKCW_3D_DefaultMeshes.cpp" />
+    <ClCompile Include="Source\FKCW_3D_DefaultPassUniformCallback.cpp" />
+    <ClCompile Include="Source\FKCW_3D_DefaultPrograms.cpp" />
+    <ClCompile Include="Source\FKCW_3D_FKSimpleModelLoader.cpp" />
+    <ClCompile Include="Source\FKCW_3D_GLMath.cpp" />
+    <ClCompile Include="Source\FKCW_3D_IDTriangle.cpp" />
+    <ClCompile Include="Source\FKCW_3D_IndexVBO3D.cpp" />
+    <ClCompile Include="Source\FKCW_3D_LightSource.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Macro.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Material.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Math.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Matrix4.cpp" />
+    <ClCompile Include="Source\FKCW_3D_MatStackInfoGetor.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Mesh.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Model.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Node.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Programs.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Range.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Root.cpp" />
+    <ClCompile Include="Source\FKCW_3D_SubMesh.cpp" />
+    <ClCompile Include="Source\FKCW_3D_SubMeshData.cpp" />
+    <ClCompile Include="Source\FKCW_3D_Vector.cpp" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{6F0AB526-E66B-497D-B8D5-A1CF9DDFDB19}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <RootNamespace>FKCW_3D</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <PlatformToolset>v110</PlatformToolset>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)$(Configuration).win32\</OutDir>
+    <IntDir>$(SolutionDir)\Obj\$(Configuration).win32\</IntDir>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;COCOS2D_DEBUG=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251;4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <PrecompiledHeader>
+      </PrecompiledHeader>
+      <Optimization>MaxSpeed</Optimization>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_LIB;_WINDOWS;_USE_MATH_DEFINES;GL_GLEXT_PROTOTYPES;CC_ENABLE_CHIPMUNK_INTEGRATION=1;_CRT_SECURE_NO_WARNINGS;_SCL_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(ProjectDir)..\..\..\cocos2dx;$(ProjectDir)..\..\..\cocos2dx\include;$(ProjectDir)..\..\..\cocos2dx\kazmath\include;$(ProjectDir)..\..\..\cocos2dx\platform\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32;$(ProjectDir)..\..\..\cocos2dx\platform\third_party\win32\OGLES;$(ProjectDir)..\..\..\external;$(ProjectDir)..\..\..\external\chipmunk\include\chipmunk;$(ProjectDir)..\..\..\CocosDenshion\include;$(ProjectDir)..\..\..\extensions;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <DisableSpecificWarnings>4251,4800</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <SubSystem>Windows</SubSystem>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <OptimizeReferences>true</OptimizeReferences>
+    </Link>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>
